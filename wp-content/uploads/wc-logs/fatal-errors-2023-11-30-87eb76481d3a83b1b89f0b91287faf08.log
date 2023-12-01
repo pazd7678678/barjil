@@ -1,0 +1,171 @@
+2023-11-30T07:55:22+00:00 CRITICAL Cannot redeclare add_product_id_column() (previously declared in /srv/www/wordpress/wp-content/themes/twentytwentyfour/functions.php:210) in /srv/www/wordpress/wp-content/themes/twentytwentyfour/functions.php on line 225
+
+2023-11-30T08:34:59+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 86
+
+2023-11-30T08:35:00+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 86
+
+2023-11-30T08:35:12+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 86
+
+2023-11-30T08:35:13+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 86
+
+2023-11-30T08:36:08+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 86
+
+2023-11-30T08:36:09+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 86
+
+2023-11-30T08:37:12+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 87
+
+2023-11-30T08:37:13+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 87
+
+2023-11-30T08:37:39+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 87
+
+2023-11-30T08:39:05+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 86
+
+2023-11-30T08:39:06+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 86
+
+2023-11-30T08:39:07+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 86
+
+2023-11-30T08:39:07+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 86
+
+2023-11-30T08:39:12+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 86
+
+2023-11-30T08:39:13+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 86
+
+2023-11-30T08:39:15+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 68
+
+2023-11-30T08:39:16+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 68
+
+2023-11-30T08:39:17+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 68
+
+2023-11-30T08:39:18+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 68
+
+2023-11-30T08:39:18+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 68
+
+2023-11-30T08:39:58+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 72
+
+2023-11-30T08:39:58+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 72
+
+2023-11-30T08:40:13+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 72
+
+2023-11-30T08:40:14+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 72
+
+2023-11-30T08:40:14+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 72
+
+2023-11-30T08:40:15+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 72
+
+2023-11-30T08:40:31+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 73
+
+2023-11-30T08:40:32+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 73
+
+2023-11-30T08:40:32+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 73
+
+2023-11-30T08:40:32+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 73
+
+2023-11-30T08:40:33+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 73
+
+2023-11-30T08:41:43+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 71
+
+2023-11-30T08:41:44+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 71
+
+2023-11-30T08:42:25+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 71
+
+2023-11-30T08:42:26+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 71
+
+2023-11-30T08:43:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_new_column" not found or invalid function name in /srv/www/wordpress/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /srv/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#1 /srv/www/wordpress/wp-admin/includes/screen.php(37): apply_filters()
+#2 /srv/www/wordpress/wp-admin/includes/class-wp-screen.php(998): get_column_headers()
+#3 /srv/www/wordpress/wp-admin/includes/class-wp-screen.php(959): WP_Screen->show_screen_options()
+#4 /srv/www/wordpress/wp-admin/admin-header.php(281): WP_Screen->render_screen_meta()
+#5 /srv/www/wordpress/wp-admin/edit.php(411): require_once('...')
+#6 {main}
+  thrown in /srv/www/wordpress/wp-includes/class-wp-hook.php on line 324
+
+2023-11-30T09:19:57+00:00 CRITICAL syntax error, unexpected variable "$orderby_value", expecting "{" in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 73
+
+2023-11-30T09:19:59+00:00 CRITICAL syntax error, unexpected variable "$orderby_value", expecting "{" in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 73
+
+2023-11-30T10:00:21+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_product_custom_column" not found or invalid function name in /srv/www/wordpress/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /srv/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#1 /srv/www/wordpress/wp-admin/includes/screen.php(37): apply_filters()
+#2 /srv/www/wordpress/wp-admin/includes/class-wp-screen.php(998): get_column_headers()
+#3 /srv/www/wordpress/wp-admin/includes/class-wp-screen.php(959): WP_Screen->show_screen_options()
+#4 /srv/www/wordpress/wp-admin/admin-header.php(281): WP_Screen->render_screen_meta()
+#5 /srv/www/wordpress/wp-admin/edit.php(411): require_once('...')
+#6 {main}
+  thrown in /srv/www/wordpress/wp-includes/class-wp-hook.php on line 324
+
+2023-11-30T10:00:24+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_product_custom_column" not found or invalid function name in /srv/www/wordpress/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /srv/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#1 /srv/www/wordpress/wp-admin/includes/screen.php(37): apply_filters()
+#2 /srv/www/wordpress/wp-admin/includes/class-wp-screen.php(998): get_column_headers()
+#3 /srv/www/wordpress/wp-admin/includes/class-wp-screen.php(959): WP_Screen->show_screen_options()
+#4 /srv/www/wordpress/wp-admin/admin-header.php(281): WP_Screen->render_screen_meta()
+#5 /srv/www/wordpress/wp-admin/edit.php(411): require_once('...')
+#6 {main}
+  thrown in /srv/www/wordpress/wp-includes/class-wp-hook.php on line 324
+
+2023-11-30T10:00:26+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_product_custom_column" not found or invalid function name in /srv/www/wordpress/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /srv/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#1 /srv/www/wordpress/wp-admin/includes/screen.php(37): apply_filters()
+#2 /srv/www/wordpress/wp-admin/includes/class-wp-screen.php(998): get_column_headers()
+#3 /srv/www/wordpress/wp-admin/includes/class-wp-screen.php(959): WP_Screen->show_screen_options()
+#4 /srv/www/wordpress/wp-admin/admin-header.php(281): WP_Screen->render_screen_meta()
+#5 /srv/www/wordpress/wp-admin/edit.php(411): require_once('...')
+#6 {main}
+  thrown in /srv/www/wordpress/wp-includes/class-wp-hook.php on line 324
+
+2023-11-30T10:23:17+00:00 CRITICAL Unclosed '{' on line 73 in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 80
+
+2023-11-30T10:23:18+00:00 CRITICAL Unclosed '{' on line 73 in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 80
+
+2023-11-30T10:23:18+00:00 CRITICAL Unclosed '{' on line 73 in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 80
+
+2023-11-30T10:23:40+00:00 CRITICAL Unclosed '{' on line 73 in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 80
+
+2023-11-30T10:23:40+00:00 CRITICAL Unclosed '{' on line 73 in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 80
+
+2023-11-30T12:49:50+00:00 CRITICAL Cannot use temporary expression in write context in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 77
+
+2023-11-30T12:54:52+00:00 CRITICAL syntax error, unexpected token "echo" in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 77
+
+2023-11-30T12:54:53+00:00 CRITICAL syntax error, unexpected token "echo" in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 77
+
+2023-11-30T14:02:32+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_product_id_column" not found or invalid function name in /srv/www/wordpress/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /srv/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#1 /srv/www/wordpress/wp-admin/includes/screen.php(37): apply_filters()
+#2 /srv/www/wordpress/wp-admin/includes/class-wp-screen.php(998): get_column_headers()
+#3 /srv/www/wordpress/wp-admin/includes/class-wp-screen.php(959): WP_Screen->show_screen_options()
+#4 /srv/www/wordpress/wp-admin/admin-header.php(281): WP_Screen->render_screen_meta()
+#5 /srv/www/wordpress/wp-admin/edit.php(411): require_once('...')
+#6 {main}
+  thrown in /srv/www/wordpress/wp-includes/class-wp-hook.php on line 324
+
+2023-11-30T14:02:35+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_product_id_column" not found or invalid function name in /srv/www/wordpress/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /srv/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#1 /srv/www/wordpress/wp-admin/includes/screen.php(37): apply_filters()
+#2 /srv/www/wordpress/wp-admin/includes/class-wp-screen.php(998): get_column_headers()
+#3 /srv/www/wordpress/wp-admin/includes/class-wp-screen.php(959): WP_Screen->show_screen_options()
+#4 /srv/www/wordpress/wp-admin/admin-header.php(281): WP_Screen->render_screen_meta()
+#5 /srv/www/wordpress/wp-admin/edit.php(411): require_once('...')
+#6 {main}
+  thrown in /srv/www/wordpress/wp-includes/class-wp-hook.php on line 324
+
+2023-11-30T14:29:17+00:00 CRITICAL Uncaught TypeError: explode(): Argument #1 ($separator) must be of type string, array given in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php:83
+Stack trace:
+#0 /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php(83): explode()
+#1 /srv/www/wordpress/wp-includes/class-wp-hook.php(324): add_product_custom_column()
+#2 /srv/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#3 /srv/www/wordpress/wp-admin/includes/screen.php(37): apply_filters()
+#4 /srv/www/wordpress/wp-admin/includes/class-wp-screen.php(998): get_column_headers()
+#5 /srv/www/wordpress/wp-admin/includes/class-wp-screen.php(959): WP_Screen->show_screen_options()
+#6 /srv/www/wordpress/wp-admin/admin-header.php(281): WP_Screen->render_screen_meta()
+#7 /srv/www/wordpress/wp-admin/edit.php(411): require_once('...')
+#8 {main}
+  thrown in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php on line 83
+

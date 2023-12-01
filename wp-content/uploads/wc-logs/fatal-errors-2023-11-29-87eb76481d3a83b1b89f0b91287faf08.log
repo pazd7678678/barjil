@@ -1,0 +1,106 @@
+2023-11-29T10:35:51+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 237568 bytes) in /srv/www/wordpress/wp-includes/class-wp-scripts.php on line 634
+
+2023-11-29T10:35:51+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 241664 bytes) in /srv/www/wordpress/wp-includes/class-wp-scripts.php on line 634
+
+2023-11-29T10:49:01+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentyfour/functions.php on line 212
+
+2023-11-29T10:49:12+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentyfour/functions.php on line 209
+
+2023-11-29T10:49:13+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentyfour/functions.php on line 209
+
+2023-11-29T10:49:36+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentyfour/functions.php on line 209
+
+2023-11-29T10:49:37+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentyfour/functions.php on line 209
+
+2023-11-29T10:50:09+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentyfour/functions.php on line 213
+
+2023-11-29T10:50:15+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentyfour/functions.php on line 213
+
+2023-11-29T10:50:45+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentyfour/functions.php on line 211
+
+2023-11-29T10:50:46+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentyfour/functions.php on line 211
+
+2023-11-29T10:50:47+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentyfour/functions.php on line 211
+
+2023-11-29T10:50:47+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentyfour/functions.php on line 211
+
+2023-11-29T10:50:47+00:00 CRITICAL syntax error, unexpected token ")", expecting variable in /srv/www/wordpress/wp-content/themes/twentytwentyfour/functions.php on line 211
+
+2023-11-29T11:43:44+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "bbloomer_admin_products_visibility_column" not found or invalid function name in /srv/www/wordpress/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /srv/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#1 /srv/www/wordpress/wp-admin/includes/screen.php(37): apply_filters()
+#2 /srv/www/wordpress/wp-admin/includes/class-wp-screen.php(998): get_column_headers()
+#3 /srv/www/wordpress/wp-admin/includes/class-wp-screen.php(959): WP_Screen->show_screen_options()
+#4 /srv/www/wordpress/wp-admin/admin-header.php(281): WP_Screen->render_screen_meta()
+#5 /srv/www/wordpress/wp-admin/edit.php(411): require_once('...')
+#6 {main}
+  thrown in /srv/www/wordpress/wp-includes/class-wp-hook.php on line 324
+
+2023-11-29T11:43:46+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "bbloomer_admin_products_visibility_column" not found or invalid function name in /srv/www/wordpress/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /srv/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#1 /srv/www/wordpress/wp-admin/includes/screen.php(37): apply_filters()
+#2 /srv/www/wordpress/wp-admin/includes/class-wp-screen.php(998): get_column_headers()
+#3 /srv/www/wordpress/wp-admin/includes/class-wp-screen.php(959): WP_Screen->show_screen_options()
+#4 /srv/www/wordpress/wp-admin/admin-header.php(281): WP_Screen->render_screen_meta()
+#5 /srv/www/wordpress/wp-admin/edit.php(411): require_once('...')
+#6 {main}
+  thrown in /srv/www/wordpress/wp-includes/class-wp-hook.php on line 324
+
+2023-11-29T11:56:03+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_product_id_column" not found or invalid function name in /srv/www/wordpress/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /srv/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#1 /srv/www/wordpress/wp-admin/includes/screen.php(37): apply_filters()
+#2 /srv/www/wordpress/wp-admin/includes/class-wp-screen.php(998): get_column_headers()
+#3 /srv/www/wordpress/wp-admin/includes/class-wp-screen.php(959): WP_Screen->show_screen_options()
+#4 /srv/www/wordpress/wp-admin/admin-header.php(281): WP_Screen->render_screen_meta()
+#5 /srv/www/wordpress/wp-admin/edit.php(411): require_once('...')
+#6 {main}
+  thrown in /srv/www/wordpress/wp-includes/class-wp-hook.php on line 324
+
+2023-11-29T11:56:10+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_product_id_column_content" not found or invalid function name in /srv/www/wordpress/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /srv/www/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /srv/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(1398): do_action()
+#3 /srv/www/wordpress/wp-admin/includes/class-wp-list-table.php(1799): WP_Posts_List_Table->column_default()
+#4 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(1432): WP_List_Table->single_row_columns()
+#5 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(834): WP_Posts_List_Table->single_row()
+#6 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(810): WP_Posts_List_Table->_display_rows()
+#7 /srv/www/wordpress/wp-admin/includes/class-wp-list-table.php(1709): WP_Posts_List_Table->display_rows()
+#8 /srv/www/wordpress/wp-admin/includes/class-wp-list-table.php(1636): WP_List_Table->display_rows_or_placeholder()
+#9 /srv/www/wordpress/wp-admin/edit.php(503): WP_List_Table->display()
+#10 {main}
+  thrown in /srv/www/wordpress/wp-includes/class-wp-hook.php on line 324
+
+2023-11-29T11:56:13+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_product_id_column_content" not found or invalid function name in /srv/www/wordpress/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /srv/www/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /srv/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(1398): do_action()
+#3 /srv/www/wordpress/wp-admin/includes/class-wp-list-table.php(1799): WP_Posts_List_Table->column_default()
+#4 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(1432): WP_List_Table->single_row_columns()
+#5 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(834): WP_Posts_List_Table->single_row()
+#6 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(810): WP_Posts_List_Table->_display_rows()
+#7 /srv/www/wordpress/wp-admin/includes/class-wp-list-table.php(1709): WP_Posts_List_Table->display_rows()
+#8 /srv/www/wordpress/wp-admin/includes/class-wp-list-table.php(1636): WP_List_Table->display_rows_or_placeholder()
+#9 /srv/www/wordpress/wp-admin/edit.php(503): WP_List_Table->display()
+#10 {main}
+  thrown in /srv/www/wordpress/wp-includes/class-wp-hook.php on line 324
+
+2023-11-29T11:56:54+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, no array or string given in /srv/www/wordpress/wp-includes/class-wp-hook.php:326
+Stack trace:
+#0 /srv/www/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /srv/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(1398): do_action()
+#3 /srv/www/wordpress/wp-admin/includes/class-wp-list-table.php(1799): WP_Posts_List_Table->column_default()
+#4 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(1432): WP_List_Table->single_row_columns()
+#5 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(834): WP_Posts_List_Table->single_row()
+#6 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(810): WP_Posts_List_Table->_display_rows()
+#7 /srv/www/wordpress/wp-admin/includes/class-wp-list-table.php(1709): WP_Posts_List_Table->display_rows()
+#8 /srv/www/wordpress/wp-admin/includes/class-wp-list-table.php(1636): WP_List_Table->display_rows_or_placeholder()
+#9 /srv/www/wordpress/wp-admin/edit.php(503): WP_List_Table->display()
+#10 {main}
+  thrown in /srv/www/wordpress/wp-includes/class-wp-hook.php on line 326
+

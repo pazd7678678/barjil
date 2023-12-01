@@ -1,0 +1,150 @@
+2023-12-01T13:21:40+00:00 CRITICAL Uncaught Error: Call to undefined function add_settings_field() in /srv/www/wordpress/wp-content/plugins/woocommerce/woocommerce.php:70
+Stack trace:
+#0 /srv/www/wordpress/wp-includes/class-wp-hook.php(324): my_add_customization_column_setting()
+#1 /srv/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-general.php(294): apply_filters()
+#3 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(125): WC_Settings_General->get_settings_for_default_section()
+#4 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(98): WC_Settings_Page->get_settings_for_section()
+#5 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(232): WC_Settings_Page->get_settings()
+#6 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(220): WC_Settings_Page->save_settings_for_current_section()
+#7 /srv/www/wordpress/wp-includes/class-wp-hook.php(324): WC_Settings_Page->save()
+#8 /srv/www/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /srv/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-settings.php(77): do_action()
+#11 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php(179): WC_Admin_Settings::save()
+#12 /srv/www/wordpress/wp-includes/class-wp-hook.php(324): WC_Admin_Menus->save_settings()
+#13 /srv/www/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /srv/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#15 /srv/www/wordpress/wp-settings.php(665): do_action()
+#16 /srv/www/wordpress/wp-config.php(98): require_once('...')
+#17 /srv/www/wordpress/wp-load.php(50): require_once('...')
+#18 /srv/www/wordpress/wp-admin/admin.php(34): require_once('...')
+#19 {main}
+  thrown در /srv/www/wordpress/wp-content/plugins/woocommerce/woocommerce.php روی خط 70
+
+2023-12-01T13:29:31+00:00 CRITICAL Uncaught Error: Call to undefined function add_settings_field() in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php:96
+Stack trace:
+#0 /srv/www/wordpress/wp-includes/class-wp-hook.php(324): my_add_customization_column_setting()
+#1 /srv/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-general.php(294): apply_filters()
+#3 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(125): WC_Settings_General->get_settings_for_default_section()
+#4 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(98): WC_Settings_Page->get_settings_for_section()
+#5 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/class-wc-register-wp-admin-settings.php(126): WC_Settings_Page->get_settings()
+#6 /srv/www/wordpress/wp-includes/class-wp-hook.php(324): WC_Register_WP_Admin_Settings->register_page_settings()
+#7 /srv/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#8 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-setting-options-controller.php(79): apply_filters()
+#9 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php(137): WC_REST_Setting_Options_Controller->get_group_settings()
+#10 /srv/www/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1193): WC_REST_Setting_Options_V2_Controller->get_items()
+#11 /srv/www/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request()
+#12 /srv/www/wordpress/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch()
+#13 /srv/www/wordpress/wp-includes/rest-api.php(424): WP_REST_Server->serve_request()
+#14 /srv/www/wordpress/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#15 /srv/www/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#16 /srv/www/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action()
+#17 /srv/www/wordpress/wp-includes/class-wp.php(418): do_action_ref_array()
+#18 /srv/www/wordpress/wp-includes/class-wp.php(813): WP->parse_request()
+#19 /srv/www/wordpress/wp-includes/functions.php(1336): WP->main()
+#20 /srv/www/wordpress/wp-blog-header.php(16): wp()
+#21 /srv/www/wordpress/index.php(17): require('...')
+#22 {main}
+  thrown در /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php روی خط 96
+
+2023-12-01T13:29:33+00:00 CRITICAL Uncaught Error: Call to undefined function add_settings_field() in /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php:96
+Stack trace:
+#0 /srv/www/wordpress/wp-includes/class-wp-hook.php(324): my_add_customization_column_setting()
+#1 /srv/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-general.php(294): apply_filters()
+#3 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(125): WC_Settings_General->get_settings_for_default_section()
+#4 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(98): WC_Settings_Page->get_settings_for_section()
+#5 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(232): WC_Settings_Page->get_settings()
+#6 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(220): WC_Settings_Page->save_settings_for_current_section()
+#7 /srv/www/wordpress/wp-includes/class-wp-hook.php(324): WC_Settings_Page->save()
+#8 /srv/www/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /srv/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-settings.php(77): do_action()
+#11 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php(179): WC_Admin_Settings::save()
+#12 /srv/www/wordpress/wp-includes/class-wp-hook.php(324): WC_Admin_Menus->save_settings()
+#13 /srv/www/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /srv/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#15 /srv/www/wordpress/wp-settings.php(665): do_action()
+#16 /srv/www/wordpress/wp-config.php(98): require_once('...')
+#17 /srv/www/wordpress/wp-load.php(50): require_once('...')
+#18 /srv/www/wordpress/wp-admin/admin.php(34): require_once('...')
+#19 {main}
+  thrown در /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php روی خط 96
+
+2023-12-01T13:35:14+00:00 CRITICAL Uncaught Error: Call to undefined function add_settings_field() in /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-settings.php:988
+Stack trace:
+#0 /srv/www/wordpress/wp-includes/class-wp-hook.php(324): my_add_customization_column_setting()
+#1 /srv/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-general.php(294): apply_filters()
+#3 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(125): WC_Settings_General->get_settings_for_default_section()
+#4 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(98): WC_Settings_Page->get_settings_for_section()
+#5 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(232): WC_Settings_Page->get_settings()
+#6 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php(220): WC_Settings_Page->save_settings_for_current_section()
+#7 /srv/www/wordpress/wp-includes/class-wp-hook.php(324): WC_Settings_Page->save()
+#8 /srv/www/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /srv/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-settings.php(77): do_action()
+#11 /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php(179): WC_Admin_Settings::save()
+#12 /srv/www/wordpress/wp-includes/class-wp-hook.php(324): WC_Admin_Menus->save_settings()
+#13 /srv/www/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /srv/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#15 /srv/www/wordpress/wp-settings.php(665): do_action()
+#16 /srv/www/wordpress/wp-config.php(98): require_once('...')
+#17 /srv/www/wordpress/wp-load.php(50): require_once('...')
+#18 /srv/www/wordpress/wp-admin/admin.php(34): require_once('...')
+#19 {main}
+  thrown در /srv/www/wordpress/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-settings.php روی خط 988
+
+2023-12-01T14:35:53+00:00 CRITICAL syntax error, unexpected token ")", expecting variable در /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php روی خط 118
+
+2023-12-01T14:59:42+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "display_customization_column_content" not found or invalid function name in /srv/www/wordpress/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /srv/www/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /srv/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(1380): do_action()
+#3 /srv/www/wordpress/wp-admin/includes/class-wp-list-table.php(1799): WP_Posts_List_Table->column_default()
+#4 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(1432): WP_List_Table->single_row_columns()
+#5 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(834): WP_Posts_List_Table->single_row()
+#6 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(810): WP_Posts_List_Table->_display_rows()
+#7 /srv/www/wordpress/wp-admin/includes/class-wp-list-table.php(1709): WP_Posts_List_Table->display_rows()
+#8 /srv/www/wordpress/wp-admin/includes/class-wp-list-table.php(1636): WP_List_Table->display_rows_or_placeholder()
+#9 /srv/www/wordpress/wp-admin/edit.php(503): WP_List_Table->display()
+#10 {main}
+  thrown در /srv/www/wordpress/wp-includes/class-wp-hook.php روی خط 324
+
+2023-12-01T15:00:02+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "display_customization_column_content" not found or invalid function name in /srv/www/wordpress/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /srv/www/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /srv/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(1380): do_action()
+#3 /srv/www/wordpress/wp-admin/includes/class-wp-list-table.php(1799): WP_Posts_List_Table->column_default()
+#4 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(1432): WP_List_Table->single_row_columns()
+#5 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(834): WP_Posts_List_Table->single_row()
+#6 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(810): WP_Posts_List_Table->_display_rows()
+#7 /srv/www/wordpress/wp-admin/includes/class-wp-list-table.php(1709): WP_Posts_List_Table->display_rows()
+#8 /srv/www/wordpress/wp-admin/includes/class-wp-list-table.php(1636): WP_List_Table->display_rows_or_placeholder()
+#9 /srv/www/wordpress/wp-admin/edit.php(503): WP_List_Table->display()
+#10 {main}
+  thrown در /srv/www/wordpress/wp-includes/class-wp-hook.php روی خط 324
+
+2023-12-01T15:00:57+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "display_customization_column_content" not found or invalid function name in /srv/www/wordpress/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /srv/www/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /srv/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(1380): do_action()
+#3 /srv/www/wordpress/wp-admin/includes/class-wp-list-table.php(1799): WP_Posts_List_Table->column_default()
+#4 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(1432): WP_List_Table->single_row_columns()
+#5 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(834): WP_Posts_List_Table->single_row()
+#6 /srv/www/wordpress/wp-admin/includes/class-wp-posts-list-table.php(810): WP_Posts_List_Table->_display_rows()
+#7 /srv/www/wordpress/wp-admin/includes/class-wp-list-table.php(1709): WP_Posts_List_Table->display_rows()
+#8 /srv/www/wordpress/wp-admin/includes/class-wp-list-table.php(1636): WP_List_Table->display_rows_or_placeholder()
+#9 /srv/www/wordpress/wp-admin/edit.php(503): WP_List_Table->display()
+#10 {main}
+  thrown در /srv/www/wordpress/wp-includes/class-wp-hook.php روی خط 324
+
+2023-12-01T15:02:29+00:00 CRITICAL Unclosed '{' on line 127 در /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php روی خط 181
+
+2023-12-01T15:02:29+00:00 CRITICAL Unclosed '{' on line 127 در /srv/www/wordpress/wp-content/themes/twentytwentytwo/functions.php روی خط 181
+
